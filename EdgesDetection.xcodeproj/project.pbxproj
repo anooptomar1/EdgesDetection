@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DC637E29B6D6A3ED5CFEE5D /* Pods_EdgesDetection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33506954E6F96872C940B224 /* Pods_EdgesDetection.framework */; };
+		B445E1769378043BDA4ADF9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B445E3EC84CA13C975880B2A /* AppDelegate.swift */; };
+		B445E20AF4C3D0F03519C6D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B445EE4FA4738AA58110095F /* LaunchScreen.storyboard */; };
+		B445E52159EAA052B420B147 /* DetectRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = B445E2A04C12F28A61D02E06 /* DetectRect.swift */; };
+		B445E99640B5D6586AE06C02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B445E11D5BD2C49BFB4E0EEB /* Assets.xcassets */; };
+		B445ECCE6B8D0F344E1C5BB5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B445EBB1EDED55831B440F97 /* MainViewController.swift */; };
+		B445EDA7EFDC1F911981A2AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B445E6BBDD71E37027EF4B2B /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		33506954E6F96872C940B224 /* Pods_EdgesDetection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EdgesDetection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46A9791C93371A2A0158D6F0 /* Pods-EdgesDetection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EdgesDetection.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EdgesDetection/Pods-EdgesDetection.debug.xcconfig"; sourceTree = "<group>"; };
+		60D37E2850090A9486DDB979 /* Pods-EdgesDetection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EdgesDetection.release.xcconfig"; path = "Pods/Target Support Files/Pods-EdgesDetection/Pods-EdgesDetection.release.xcconfig"; sourceTree = "<group>"; };
+		B445E00DE0E50D7B3C0DD696 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B445E0A9445E50A6E84E3EAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		B445E11D5BD2C49BFB4E0EEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B445E2A04C12F28A61D02E06 /* DetectRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetectRect.swift; sourceTree = "<group>"; };
+		B445E3EC84CA13C975880B2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B445E678F318708F0FE630CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B445EBB1EDED55831B440F97 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B445ED1AA6469F8E138B03B9 /* EdgesDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EdgesDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B445EE64840B7090DB1E66CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DC637E29B6D6A3ED5CFEE5D /* Pods_EdgesDetection.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F9A59FDAE61F4F054CCAC9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33506954E6F96872C940B224 /* Pods_EdgesDetection.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		807E06301142F6112422FB12 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46A9791C93371A2A0158D6F0 /* Pods-EdgesDetection.debug.xcconfig */,
+				60D37E2850090A9486DDB979 /* Pods-EdgesDetection.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B445EAB49FFFA10F629ECB4B /* EdgesDetection */ = {
+			isa = PBXGroup;
+			children = (
+				B445E0A9445E50A6E84E3EAB /* Info.plist */,
+				B445E11D5BD2C49BFB4E0EEB /* Assets.xcassets */,
+				B445EE4FA4738AA58110095F /* LaunchScreen.storyboard */,
+				B445E3EC84CA13C975880B2A /* AppDelegate.swift */,
+				B445E6BBDD71E37027EF4B2B /* Main.storyboard */,
+				B445EBB1EDED55831B440F97 /* MainViewController.swift */,
+				B445E2A04C12F28A61D02E06 /* DetectRect.swift */,
+			);
+			path = EdgesDetection;
+			sourceTree = "<group>";
+		};
+		B445EF04CBD4EB0BFF24976C = {
+			isa = PBXGroup;
+			children = (
+				B445EFB0679D1A934F530CB5 /* Products */,
+				B445EAB49FFFA10F629ECB4B /* EdgesDetection */,
+				6F9A59FDAE61F4F054CCAC9E /* Frameworks */,
+				807E06301142F6112422FB12 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		B445EFB0679D1A934F530CB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B445ED1AA6469F8E138B03B9 /* EdgesDetection.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B445E251FFCACD95E918188D /* EdgesDetection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B445E9516D146FC2E7613DE4 /* Build configuration list for PBXNativeTarget "EdgesDetection" */;
+			buildPhases = (
+				1FD61212A3C1D1BC93BB8145 /* [CP] Check Pods Manifest.lock */,
+				B445EF9E3CCD59F611F37840 /* Sources */,
+				B445EE64840B7090DB1E66CE /* Frameworks */,
+				B445E7A1D7AA7B3D6E907F03 /* Resources */,
+				89757831A1CB779C6E3241DE /* [CP] Embed Pods Frameworks */,
+				6E45D4021A6162397BFB507C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EdgesDetection;
+			productName = EdgesDetection;
+			productReference = B445ED1AA6469F8E138B03B9 /* EdgesDetection.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B445EE0FB92E5E93ABF59518 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = bright;
+				TargetAttributes = {
+					B445E251FFCACD95E918188D = {
+						DevelopmentTeam = CBE57AW4A4;
+					};
+				};
+			};
+			buildConfigurationList = B445EA5395DA135F39EFD9A5 /* Build configuration list for PBXProject "EdgesDetection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B445EF04CBD4EB0BFF24976C;
+			productRefGroup = B445EFB0679D1A934F530CB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B445E251FFCACD95E918188D /* EdgesDetection */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B445E7A1D7AA7B3D6E907F03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B445E99640B5D6586AE06C02 /* Assets.xcassets in Resources */,
+				B445E20AF4C3D0F03519C6D0 /* LaunchScreen.storyboard in Resources */,
+				B445EDA7EFDC1F911981A2AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FD61212A3C1D1BC93BB8145 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EdgesDetection-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E45D4021A6162397BFB507C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EdgesDetection/Pods-EdgesDetection-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89757831A1CB779C6E3241DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EdgesDetection/Pods-EdgesDetection-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/OpenCV/opencv2.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/opencv2.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EdgesDetection/Pods-EdgesDetection-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B445EF9E3CCD59F611F37840 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B445E1769378043BDA4ADF9E /* AppDelegate.swift in Sources */,
+				B445ECCE6B8D0F344E1C5BB5 /* MainViewController.swift in Sources */,
+				B445E52159EAA052B420B147 /* DetectRect.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B445E6BBDD71E37027EF4B2B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B445E678F318708F0FE630CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B445EE4FA4738AA58110095F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B445E00DE0E50D7B3C0DD696 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B445E1FF9E8E1619F89D3275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60D37E2850090A9486DDB979 /* Pods-EdgesDetection.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CBE57AW4A4;
+				INFOPLIST_FILE = EdgesDetection/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.brightinventions.EdgesDetection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B445E6D0DFF22A75DF3E371B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B445E6F798D2BEAD041B5169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46A9791C93371A2A0158D6F0 /* Pods-EdgesDetection.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CBE57AW4A4;
+				INFOPLIST_FILE = EdgesDetection/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.brightinventions.EdgesDetection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B445E935EC746DDB85DB2B24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B445E9516D146FC2E7613DE4 /* Build configuration list for PBXNativeTarget "EdgesDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B445E6F798D2BEAD041B5169 /* Debug */,
+				B445E1FF9E8E1619F89D3275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B445EA5395DA135F39EFD9A5 /* Build configuration list for PBXProject "EdgesDetection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B445E935EC746DDB85DB2B24 /* Debug */,
+				B445E6D0DFF22A75DF3E371B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B445EE0FB92E5E93ABF59518 /* Project object */;
+}
